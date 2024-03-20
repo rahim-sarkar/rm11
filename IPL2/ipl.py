@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
-model = pickle.load(open("IPL/model.pkl","rb"))
+model = pickle.load(open("IPL2/model.pkl","rb"))
 teams = ['Sunrisers Hyderabad',
     'Mumbai Indians',
     'Royal Challengers Bangalore',
